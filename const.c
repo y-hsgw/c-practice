@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 void function() {
   static int a = 0; /* 静的変数*/
   a++;
