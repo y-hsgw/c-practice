@@ -14,5 +14,4 @@ int main(void) {
 void calc(int x, int y, int *a1, int *a2) {
   *a1 = x + y;
   *a2 = x - y;
-
 }
