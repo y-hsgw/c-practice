@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int main(){
   int ary[2][2];
   ary[0][0] = 10;
