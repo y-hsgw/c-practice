@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 /* プロトタイプ宣言 */
 float getMax(float a, float b);
 
@@ -10,7 +9,7 @@ float getMax(float a, float b);
   return 返り血
 }
 */
-int main(void){
+int main(void) {
   float result;
   result = getMax(2.3, 5.2);
   printf("%f\n", result);
@@ -18,7 +17,7 @@ int main(void){
 }
 
 float getMax(float a, float b) {
-  if(a >= b){
+  if (a >= b) {
     return a;
   } else {
     return b;

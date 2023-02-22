@@ -6,7 +6,7 @@ int main(void) {
   char str1[] = "Star";
   char str2[] = "Wars";
   int i = 3;
-  sprintf(str,"%s%s%d", str1,str2,i);
+  sprintf(str, "%s%s%d", str1, str2, i);
   printf("%s\n", str);
   return 0;
 }

@@ -2,8 +2,8 @@
 #include <string.h>
 
 int main(void) {
-  char str [10];
+  char str[10];
   strcpy(str, "MIKE");
-  printf("%s\n",str);
+  printf("%s\n", str);
   return 0;
 }

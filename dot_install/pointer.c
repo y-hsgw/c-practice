@@ -7,14 +7,14 @@ $：アドレス演算子
 *：関節演算子
 */
 
-void swap(int *pa, int *pb){
+void swap(int *pa, int *pb) {
   int tmp;
   tmp = *pa;
   *pa = *pb;
   *pb = tmp;
 }
 
-int main(void){
+int main(void) {
 
   int a = 5;
   int b = 10;

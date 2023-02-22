@@ -6,7 +6,7 @@ void function() {
   printf("a:%d\n", a);
 }
 
-int main(void){
+int main(void) {
   function();
   function();
   function();

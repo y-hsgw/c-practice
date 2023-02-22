@@ -7,7 +7,7 @@ int main(void) {
   printf("%d\n", array[2]);
 
   int i;
-  for(i=0; i<sizeof(array) / sizeof(array[0]); i++){
+  for (i = 0; i < sizeof(array) / sizeof(array[0]); i++) {
     printf("%d番目：%d\n", i, array[i]);
   }
   return 0;

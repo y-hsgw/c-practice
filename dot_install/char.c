@@ -6,7 +6,7 @@ int i;
 × string s;
 */
 
-int main(void){
+int main(void) {
   char s[] = "abc";
   printf("%c\n", s[1]);
   return 0;

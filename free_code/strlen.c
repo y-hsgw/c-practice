@@ -3,7 +3,7 @@
 
 int main(void) {
   char str[256];
-  scanf("%s",str);
+  scanf("%s", str);
   int i;
   i = strlen(str);
 
